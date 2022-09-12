@@ -1,0 +1,75 @@
+name: "Rogue One"
+type: 4
+ship: "Exploration"
+agenda: "Tech"
+edge: "Harmonious Culture (1\" re-roll aura)"
+commander:
+  name: "Sondar"
+  stats:
+    life: 7
+    movement: 4
+    combat: 5
+    reaction: 5
+    intelligence: 5
+  abilities:
+    - "Survival Specialist"
+  equipment:
+    - "Sidearm"
+    - "Stabilisation Module"
+members:
+  - name: "Gak"
+    type: "Soldier"
+    stats:
+      life: 6
+      movement: 4
+      combat: 5
+      reaction: 4
+      intelligence: 4
+    abilities:
+      - "Combat Specialist (re-roll 2d)"
+    equipment:
+      - "Sidearm"
+      - "Melee Weapon"
+
+  - name: "Weaver"
+    type: "Chief Engineer"
+    stats:
+      life: 6
+      movement: 4
+      combat: 4
+      reaction: 5
+      intelligence: 5
+    abilities:
+      - "Bypass: TN=0"
+      - "Weapon Tuning"
+    equipment:
+      - "Sidearm"
+      - "Adv. tech kit: (In. test on alient +4)"
+
+  - name: "K-2SO"
+    type: "Ace Pilot"
+    stats:
+      life: 6
+      movement: 4
+      combat: 4
+      reaction: 6
+      intelligence: 4
+    abilities:
+      - "Ultimate Ace: re-roll 1 (challenge)"
+      - "Aware: +2 Reaction"
+    equipment:
+      - "Sidearm"
+
+  - name: "Mordin"
+    type: "Medical Officer"
+    stats:
+      life: 6
+      movement: 4
+      combat: 4
+      reaction: 4
+      intelligence: 5
+    abilities:
+      - "Medical Attention: 7d 6+ heal"
+    equipment:
+      - "Sidearm"
+      - "Medi-Bag"
